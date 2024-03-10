@@ -23,7 +23,7 @@ const Support = () => {
               inverted={true}
               tagText="Contact"
               imgUrl="/grid_bg.svg"
-              text="Learn more about our real estate, mortgage, and  corporate account services"
+              text="Chat with us now."
             />
           }
           title="Live Chat"

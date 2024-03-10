@@ -79,14 +79,41 @@ const PriceSection = () => {
             <Image w="100%" src="/graph.svg" mt="3rem" />
             <HStack justify="space-between">
               {timestamps.map((item) => (
-                <Text key={item} fontSize="sm" color="black.80">
+                <Text key={item} fontSize="sm" color="black.80" pt="3">
                   {item}
                 </Text>
               ))}
             </HStack>
           </TabPanel>
           <TabPanel>
-            <p>two!</p>
+            <Image w="100%" src="/graph.svg" mt="3rem" />
+            <HStack justify="space-between">
+              {timestamps.map((item) => (
+                <Text key={item} fontSize="sm" color="black.80" pt="3">
+                  {item}
+                </Text>
+              ))}
+            </HStack>
+          </TabPanel>
+          <TabPanel>
+            <Image w="100%" src="/graph.svg" mt="3rem" />
+            <HStack justify="space-between">
+              {timestamps.map((item) => (
+                <Text key={item} fontSize="sm" color="black.80" pt="3">
+                  {item}
+                </Text>
+              ))}
+            </HStack>
+          </TabPanel>
+          <TabPanel>
+            <Image w="100%" src="/graph.svg" mt="3rem" />
+            <HStack justify="space-between">
+              {timestamps.map((item) => (
+                <Text key={item} fontSize="sm" color="black.80" pt="3">
+                  {item}
+                </Text>
+              ))}
+            </HStack>
           </TabPanel>
         </TabPanels>
       </Tabs>
